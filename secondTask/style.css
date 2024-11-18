@@ -1,0 +1,162 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: rgb(227, 227, 227);
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 720px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+
+.filter__form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter__input {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid #92bdf1;
+  border-radius: 50px;
+  color: black;
+}
+
+.filter__input::placeholder {
+  padding-left: 5px;
+}
+
+.block {
+  margin-bottom: 20px;
+}
+
+.block__head {
+  padding: 8px 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+  border-radius: 11px;
+}
+
+span {
+  font-size: 15px;
+}
+
+.block__head_span {
+  cursor: pointer;
+}
+
+.item {
+  padding: 8px 18px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.list__name {
+  width: 131px;
+}
+
+.list__name_active {
+  text-decoration: line-through;
+}
+
+.list__age {
+  width: 80px;
+}
+
+.add-list__hobby {
+  padding: 4px 5px;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000000;
+  background-color: beige;
+  cursor: pointer;
+}
+
+.add-list__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.add-list__input {
+  border: 1px solid #92bdf1;
+  border-radius: 11px;
+}
+
+.add-list__hobby {
+  width: 252px;
+  border: 1px solid #92bdf1;
+  border-radius: 11px;
+}
+
+.add-list__input_name {
+  width: 100%;
+}
+
+.btn-plus {
+  width: 29px;
+  height: 29px;
+  background-color: #fff;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+.btn-plus:hover {
+  border: 2px solid #92bdf1;
+  color: #92bdf1;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-plus:active {
+  border: 2px solid #f9cbfd;
+  color: #f9cbfd;
+  transition: all 0.3s ease-in-out;
+}
+
+.error-label {
+  float: left;
+  font-size: 15px;
+  color: red;
+}
+
+.form-red {
+  border: 1px solid red;
+}
